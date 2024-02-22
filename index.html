@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/pixel-corazon.png"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Great+Vibes&family=Lato&display=swap" rel="stylesheet">
+    <title>Autenticación de Aniversario</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Ingrese la Fecha de Aniversario</h2>
+        <input type="date" id="anniversaryDate" required>
+        <button onclick="authenticate()">Ingresar</button>
+        <p id="errorMessage" class="error-message"></p>
+    </div>
+
+    <script src="auth.js"></script>
+</body>
+</html>
